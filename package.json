@@ -1,0 +1,29 @@
+{
+  "name": "electron-clock-app",
+  "version": "1.0.0",
+  "description": "Simple Electron app to tell you the time",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Moderatetobelowaverage",
+  "license": "CC BY-NC-SA 4.0",
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "electron-builder": "^22.11.7",
+    "electron-reloader": "^1.2.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "ejs-electron": "^2.1.1"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}

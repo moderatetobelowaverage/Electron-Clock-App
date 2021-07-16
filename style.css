@@ -1,0 +1,23 @@
+h1  {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-bottom: .3em;
+    text-align: center;
+    font-family: monospace;
+  }
+  body {
+    background-color: #2c2f33;
+
+  }
+  span {
+    font-family: monospace;
+    font-size: x-small;
+    
+  }
+  div {
+    font-family: monospace;
+    font-size: x-small;
+    offset-position: -10;
+    color: rgb(255, 255, 255);
+    
+  }
