@@ -10,7 +10,7 @@
     "dist": "electron-builder"
   },
   "author": "Moderatetobelowaverage",
-  "license": "CC BY-NC-SA 4.0",
+  "license": "MPL-2.0",
   "devDependencies": {
     "electron": "^13.1.6",
     "electron-builder": "^22.11.7",
